@@ -1,0 +1,137 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+image{
+    width: 100%;
+    display: block;
+}
+swiper {
+ height: 348rpx;
+ width: 100%;
+}
+.wx-swiper-dots{
+    margin-left: 330rpx;
+}
+.title{
+    font-size: 30rpx;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #454344;
+    font-weight: bold;
+    line-height: 110rpx;
+    margin-top: 24rpx;
+    position: relative;
+}
+.title::before{
+    content: '';
+    width: 110rpx;
+    height: 1rpx;
+    background-color: #959495;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -210rpx;
+}
+.title::after{
+    content: '';
+    width: 110rpx;
+    height: 1rpx;
+    background-color: #959495;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -210rpx;
+}
+.wedolist{
+    width: 714rpx;
+    margin: auto;
+    overflow: hidden;
+}
+.wedolist view{
+    width: 212rpx;
+    height: 160rpx;
+    border: 2rpx solid #dcdcdc;
+    float: left;
+    margin: 11rpx;
+}
+.contact{
+    width: 768rpx;
+    height: 173rpx;
+    color: #454344;
+    text-align: center;
+    line-height: 38rpx;
+    overflow: hidden;
+    font-family: "微软雅黑";
+}
+.contact .number{
+    margin-top: 55rpx;
+    font-size: 22rpx;
+    display: block;
+}
+.contact .address{
+    font-size: 20rpx;
+    display: block;
+}
+.wechat{
+    width: 768rpx;
+    height: 120rpx;
+    background-color: #8f8f8f;
+    margin-bottom: 35rpx;
+    font-size: 20rpx;
+    color: #fff;
+    text-align: center;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+.wechat text{
+    display: block;
+}
+.wechat .add{
+    width: 120rpx;
+    height: 25rpx;
+    line-height: 25rpx;
+    padding-left: 40rpx;
+    margin: auto;
+    background: url() no-repeat left center;
+    background-size: 32rpx 25rpx;
+    margin-top: 24rpx;
+    margin-bottom: 16rpx;
+}
+.wechat .wxnumbox{
+    width: 321rpx;
+    margin: auto;
+    overflow: hidden;
+}
+.wechat .wxnum,.wechat .copy{
+    float: left;
+    line-height: 31rpx;
+}
+.wechat .copy{
+    width: 99rpx;
+    height: 31rpx;
+    background-color: #fff;
+    font-size: 16rpx;
+    color: #2e2d2d;
+    border-radius: 12rpx;
+    padding: 0;
+    margin-left: 15rpx;
+}

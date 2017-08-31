@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" current="{{current}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" vertical="{{vertical}}" bindchange="{{bindchange}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <navigator url="{{item.link}}">
+                <image src="{{item.url}}" class="slide-image" mode="widthFix" />
+            </navigator>
+        </swiper-item>
+    </block>
+</swiper>
+<view class="title">我们能做什么</view>
+<view class="wedolist">
+    <view wx:for="{{listUrl}}">
+        <image src="{{item.url}}" class="slide-image" mode="widthFix"></image>
+    </view>
+</view>
+<view class="title">回购品牌</view>
+<image src="" mode="widthFix"></image>
+<view class="contact">
+    <text class="number">1111</text>
+    <text class="address">2222</text>
+</view>
+<view class="wechat" >
+    <text class="add">添加专属客服</text>
+    <view class="wxnumbox">
+        <text class="wxnum">微信号：</text>
+        <button class="copy" bindtap="clipboard">点击复制</button>
+    </view>
+</view>
